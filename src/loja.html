@@ -1,40 +1,179 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loja</title>
     <link rel="stylesheet" href="../dist/output.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <script src="js/main.js" defer></script>
 </head>
 <body>
-     <!--Header-->
-     <header>
-        <nav class="flex justify-evenly gap-x-8 md:gap-x-96">
+    <!--Header-->
+    <header>
+        <nav class="flex justify-around gap-x-8 md:gap-x-96">
             <div class="">
-                <li class="list-none w-24 h-24"><a href="index.html"><img src="img/logo.jpg" alt="logo da xylim"></a></li>
+                <li class="list-none w-24 h-24"><a href="index.html"><img src="img/logo.jpg" alt="logo da xylim"></a>
+                </li>
             </div>
             <div class="flex gap-4">
                 <li class="list-none"><a href="carrinho.html"><i class="fa-solid fa-cart-shopping mt-10"></i></a></li>
-                <li class="list-none"><a href="loja.html"><i class="fa fa-shop mt-10"></i></a></li>
             </div>
         </nav>
     </header>
-    <!-- Fim Header-->
+    <!--Fim Header-->
+
+    <div class="flex justify-around pb-6 md:pb-0">
+        <input class="md:invisible bg-slate-200 rounded-xl py-2 px-4 text-sm " placeholder="Pesquise roupas..." />
+        <i class="md:invisible fa-solid fa-code-compare mt-3"></i>
+    </div>
 
     <!--Main-->
-    <main class="flex flex-col md:flex row gap-8">
-        <div>
-        <input class="rounded-xl bg-sl py-2 px-4 ml-12 w-40 hover:text-black"
-         placeholder="Pesquise roupas..." />
+    <main class="flex px-8 flex-row ">
+        <div class="invisible md:visible fixed left-24 border-solid border-r-2 p-4 border-slate-200">
+            <div class="pb-4">
+                <input class="bg-slate-200 rounded-xl py-2 px-4 w-40 text-sm " placeholder="Pesquise roupas..." />
+            </div>
+            <div class="flex flex-col gap-6">
+                <h2  class="text-sm hover:cursor-pointer">Produtos</h2>
+                <div>
+                    <p  class="text-sm hover:cursor-pointer">Novidades(+10)</p>
+                 </div>
+                 <div>
+                     <p  class="text-sm hover:cursor-pointer">T-shirts(+30)</p>
+                  </div>
+                  <div>
+                     <p  class="text-sm hover:cursor-pointer">Chapeus(+1)</p>
+                  </div>
+                  <div>
+                     <p  class="text-sm hover:cursor-pointer">Fatos(+10)</p>
+                  </div>
+                  <div>
+                     <p  class="text-sm hover:cursor-pointer">Manjucos(+10)</p>
+                  </div>
+            </div>
         </div>
-        <div>
+             
+        <div class="flex flex-col gap-8 md:ml-72">
+            <div class="flex justify-center gap-6 flex-wrap">
+              
+              <div class="shrink-0">
+                 <img class="rounded-xl w-72 h-72" src="img/T-shirt_17.jpg" alt="" id="img_1"> 
+                 <button class="rounded-xl border-solid p-2 mt-4 bg-gray-950 text-white text-sm">
+                  Adicionar ao carrinho <i class="fa-solid fa-cart-shopping"></i>
+                 </button>
+                 <p class="mt-1 font-bold text-sm">Xylim code war</p>
+                 <p class="mt-1 text-sm">KZ 10000</p>               
+              </div>
+
+              <div class="shrink-0">
+                 <img class="rounded-xl w-72 h-72" src="img/T-shirt_18.jpg" alt=""> 
+                 <button class="rounded-xl border-solid p-2 mt-4 bg-gray-950 text-white text-sm">
+                    Adicionar ao carrinho <i class="fa-solid fa-cart-shopping"></i>
+                   </button>
+                   <p class="mt-1 font-bold text-sm">Xylim war</p>
+                   <p class="mt-1 text-sm">KZ 6000</p>                
+              </div>
+
+              <div class="shrink-0">
+                 <img class="rounded-xl w-72 h-72" src="img/T-shirt_20.jpg" alt="">
+                 <button class="rounded-xl border-solid p-2 mt-4 bg-gray-950 text-white text-sm">
+                    Adicionar ao carrinho <i class="fa-solid fa-cart-shopping"></i>
+                 </button> 
+                 <p class="mt-1 font-bold text-sm">Xylim white</p>
+                 <p class="mt-1 text-sm">KZ 7500</p>               
+              </div>
+            </div>
+
+            <div class="flex justify-center gap-6 flex-wrap">
+                <div class="shrink-0">
+                   <img class="rounded-xl w-72 h-72" src="img/T-shirt_22.jpg" alt="" id="img_1"> 
+                   <button class="rounded-xl border-solid p-2 mt-4 bg-gray-950 text-white text-sm">
+                    Adicionar ao carrinho <i class="fa-solid fa-cart-shopping"></i>
+                   </button>
+                   <p class="mt-1 font-bold text-sm">Xylim code war</p>
+                   <p class="mt-1 text-sm">KZ 10000</p>                 
+                </div>
+  
+                <div class="shrink-0">
+                   <img class="rounded-xl w-72 h-72" src="img/T-shirt_26.jpg" alt=""> 
+                   <button class="rounded-xl border-solid p-2 mt-4 bg-gray-950 text-white text-sm">
+                    Adicionar ao carrinho <i class="fa-solid fa-cart-shopping"></i>
+                   </button>
+                   <p class="mt-1 font-bold text-sm">Xylim code war</p>
+                   <p class="mt-1 text-sm">KZ 10000</p>               
+                </div>
+  
+                <div class="shrink-0">
+                   <img class="rounded-xl w-72 h-72" src="img/T-shirt_12.jpg" alt=""> 
+                   <button class="rounded-xl border-solid p-2 mt-4 bg-gray-950 text-white text-sm">
+                    Adicionar ao carrinho <i class="fa-solid fa-cart-shopping"></i>
+                   </button>
+                   <p class="mt-1 font-bold text-sm">Xylim code war</p>
+                   <p class="mt-1 text-sm">KZ 10000</p>               
+                </div>
+            </div> 
+
+            <div class="flex justify-center gap-6 flex-wrap">
+                <div class="shrink-0">
+                   <img class="rounded-xl w-72 h-72" src="img/T-shirt_13.jpg" alt="" id="img_1"> 
+                   <button class="rounded-xl border-solid p-2 mt-4 bg-gray-950 text-white text-sm">
+                    Adicionar ao carrinho <i class="fa-solid fa-cart-shopping"></i>
+                   </button>
+                   <p class="mt-1 font-bold text-sm">Xylim code war</p>
+                   <p class="mt-1 text-sm">KZ 10000</p>                
+                </div>
+  
+                <div class="shrink-0">
+                   <img class="rounded-xl w-72 h-72" src="img/T-shirt_14.jpg" alt=""> 
+                   <button class="rounded-xl border-solid p-2 mt-4 bg-gray-950 text-white text-sm">
+                    Adicionar ao carrinho <i class="fa-solid fa-cart-shopping"></i>
+                   </button>
+                   <p class="mt-1 font-bold text-sm">Xylim code war</p>
+                   <p class="mt-1 text-sm">KZ 10000</p>                
+                </div>
+  
+                <div class="shrink-0">
+                   <img class="rounded-xl w-72 h-72" src="img/casaco_1.jpg" alt=""> 
+                   <button class="rounded-xl border-solid p-2 mt-4 bg-gray-950 text-white text-sm">
+                    Adicionar ao carrinho <i class="fa-solid fa-cart-shopping"></i>
+                   </button>
+                   <p class="mt-1 font-bold text-sm">Xylim code war</p>
+                   <p class="mt-1 text-sm">KZ 10000</p>                 
+                </div>
+            </div> 
+
+            <div class="flex justify-center gap-6 flex-wrap">
+                <div class="shrink-0">
+                   <img class="rounded-xl w-72 h-72" src="img/T-shirt_11.jpg" alt="" id="img_1"> 
+                   <button class="rounded-xl border-solid p-2 mt-4 bg-gray-950 text-white text-sm">
+                    Adicionar ao carrinho <i class="fa-solid fa-cart-shopping"></i>
+                   </button>
+                   <p class="mt-1 font-bold text-sm">Xylim code war</p>
+                   <p class="mt-1 text-sm">KZ 10000</p>                
+                </div>
+  
+                <div class="shrink-0">
+                   <img class="rounded-xl w-72 h-72" src="img/T-shirt_16.jpg" alt=""> 
+                   <button class="rounded-xl border-solid p-2 mt-4 bg-gray-950 text-white text-sm">
+                    Adicionar ao carrinho <i class="fa-solid fa-cart-shopping"></i>
+                   </button>
+                   <p class="mt-1 font-bold text-sm">Xylim code war</p>
+                   <p class="mt-1 text-sm">KZ 10000</p>                 
+                </div>
+  
+                <div class="shrink-0">
+                   <img class="rounded-xl w-72 h-72" src="img/chapeu.jpg" alt=""> 
+                   <button class="rounded-xl border-solid p-2 mt-4 bg-gray-950 text-white text-sm">
+                    Adicionar ao carrinho <i class="fa-solid fa-cart-shopping"></i>
+                   </button>
+                   <p class="mt-1 font-bold text-sm">Xylim code war</p>
+                   <p class="mt-1 text-sm">KZ 10000</p>                 
+                </div>
+            </div> 
 
         </div>
+
     </main>
     <!--Fim main-->
-
-
 </body>
 </html>
