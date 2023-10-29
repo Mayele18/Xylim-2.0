@@ -14,7 +14,7 @@
 <br>
 
 <p align="center">
-  <img alt="Projeto Xylim" src=".github/preview.jpg" width="100%">
+  <img alt="Projeto Xylim" src="https://github.com/Mayele18/Xylim-2.0/blob/main/src/img/Captura%20de%20Ecrã%20(442).png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
